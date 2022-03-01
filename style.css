@@ -1,0 +1,31 @@
+:root {
+    --primary: #ffeedf;
+    --secondary: #125434;
+  }
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--primary);
+}
+header{
+    display:flex;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+header span{
+    text-align: right;
+    flex: 20%;
+}
+header p{
+    flex: 80%;
+    font-size: 36px;
+    font-weight: 700;
+}
+.material-icons {
+    font-size: 36px;  /* Preferred icon size */   
+}
